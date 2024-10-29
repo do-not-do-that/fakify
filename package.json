@@ -1,0 +1,23 @@
+{
+  "name": "fakify",
+  "version": "1.0.0",
+  "description": "가짜 데이터 생성용 npm package",
+  "keywords": [
+    "faker",
+    "typescript"
+  ],
+  "homepage": "https://github.com/do-not-do-that/fakify",
+  "bugs": {
+    "url": "https://github.com/do-not-do-that/fakify/issues"
+  },
+  "author": "do-not-do-that",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-not-do-that/fakify.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT"
+}
