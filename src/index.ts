@@ -1,1 +1,1 @@
-export { getRandomKoreanName } from "./fakify.js";
+export { getRandomKoreanName } from './fakify.js';
