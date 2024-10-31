@@ -6,6 +6,14 @@
     "faker",
     "typescript"
   ],
+  "main": "dist/index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.cjs"
+    }
+  },
   "homepage": "https://github.com/do-not-do-that/fakify",
   "bugs": {
     "url": "https://github.com/do-not-do-that/fakify/issues"
@@ -23,14 +31,14 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.4",
     "prettier": "^3.3.3",
+    "tsup": "^8.3.5",
     "typescript": "^5.6.3"
   },
   "scripts": {
-    "build": "tsc",
-    "ci": "npm run build && npm run check-format && npm run check-exports",
+    "build": "tsup",
+    "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm"
-  },
-  "main": "dist/index.js"
+  }
 }
