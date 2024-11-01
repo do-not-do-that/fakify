@@ -1,0 +1,5 @@
+---
+'fakify': patch
+---
+
+Initial release
