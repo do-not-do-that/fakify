@@ -12,6 +12,7 @@ export const getRandomKoreanName = (): string => {
     '임',
     '홍',
     '문',
+    '하',
   ];
   const firstNames: string[] = [
     '민준',
@@ -25,6 +26,7 @@ export const getRandomKoreanName = (): string => {
     '지훈',
     '준우',
     '예서',
+    '현상',
     '서윤',
     '서연',
     '지우',
