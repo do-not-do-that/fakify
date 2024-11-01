@@ -1,6 +1,6 @@
 {
   "name": "@do-not-do-that/fakify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "가짜 데이터 생성용 npm package",
   "keywords": [
     "faker",
